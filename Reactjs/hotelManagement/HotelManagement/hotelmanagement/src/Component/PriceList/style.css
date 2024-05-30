@@ -1,0 +1,21 @@
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked {
+  border: 6px solid #007bff;
+}
+
+.designin {
+  appearance: none;
+  /* border: 6px solid #007bff; */
+  background-color: white;
+  color: #000;
+}
